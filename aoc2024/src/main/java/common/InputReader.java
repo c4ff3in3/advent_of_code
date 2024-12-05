@@ -9,7 +9,7 @@ import java.util.List;
 public class InputReader {
 
     public static List<String> readInput(String day) throws IOException {
-        Path p = Paths.get("src/main/resources/inputs/" + day + "_input.txt");
+        Path p = Paths.get("aoc2024/src/main/resources/inputs/" + day + "_input.txt");
         return Files.readAllLines(p);
     }
 
